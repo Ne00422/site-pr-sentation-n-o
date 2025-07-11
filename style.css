@@ -1,0 +1,79 @@
+/* Fond général */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+/* Overlay pour lisibilité */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Titres */
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #f1c40f;
+    margin-bottom: 30px;
+}
+
+/* Texte */
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #ecf0f1;
+}
+
+/* Lien Discord */
+.discord a {
+    color: #00a8ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.discord a:hover {
+    color: #4cd137;
+    transform: scale(1.05);
+}
+
+/* Pied de page */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #dcdde1;
+    font-size: 0.9em;
+}
