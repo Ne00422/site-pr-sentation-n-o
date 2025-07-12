@@ -80,12 +80,12 @@ footer {
 
 /*lien réseaux*/
 .lien 2 a{
-  color: #4cd137;
+  color: #007BFF;
     font-weight: bolt;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .lien 2 a:hover {
     color: #4cd137;
-    transform: scale(1.05);
+    transform: (1.05);
 }
