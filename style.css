@@ -84,7 +84,7 @@ footer {
     font-weight: bolt;
     transition: color 0.3s ease, transform 0.3s ease;
 }
-.liens 2 a:hover {
+.liens2 a:hover {
     color: #27ae60;
    transform: scale(1.05);
 }
