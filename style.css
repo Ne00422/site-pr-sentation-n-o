@@ -79,13 +79,13 @@ footer {
 }
 
 /*lien réseaux*/
-.lien 2 a{
+.lien 2 {
   color: #007BFF;
     font-weight: bolt;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.lien 2 a:hover {
+.lien 2 {
     color: #4cd137;
     transform: scale(1.05);
 }
