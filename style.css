@@ -87,5 +87,5 @@ footer {
 
 .lien 2 a:hover {
     color: #4cd137;
-    transform: (1.05);
+    transform: scale(1.05);
 }
